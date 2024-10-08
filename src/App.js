@@ -20,4 +20,20 @@ function App() {
   );
 }
 
+function welcome(){
+  return <h1 className="headerMsg">
+    "WELCOME"
+  </h1>
+}
+function myFun(){
+
+  const msg=document.getElementById("inputField").value;
+  if(msg===null)
+  {
+    alert("Type something");
+  }
+  else{
+    alert("Submitted");
+  }
+}
 export default App;
